@@ -1,0 +1,21 @@
+{
+  "name": "mohammad-khawar-nuna-assessment",
+  "version": "1.0.0",
+  "description": "Nuna Take Home Automation Test Challenge",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "automation"
+  ],
+  "author": "Mohammad Khawar Khan",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "prettier": "^2.7.1"
+  }
+}

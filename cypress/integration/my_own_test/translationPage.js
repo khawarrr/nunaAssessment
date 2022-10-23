@@ -43,7 +43,9 @@ typeTextArea(){
             sourceLanguage = word.source_language
             translationLanguage = word.translation_language
             initialText = word.initial_text
-            expectedText = word.expected_text     
+            expectedText = word.expected_text
+            const lenOfInitialText = initialText.length.toString()
+            cy.get(`span[aria-label="${lenOfInitialText} of 5,000 characters used"]`, {timeout: 10000}).should('exist');     
         })
 }
 

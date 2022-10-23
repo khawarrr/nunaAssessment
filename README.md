@@ -11,8 +11,20 @@ Thank you for giving me opportunity to be considered and interview for the role.
 1. Clone this repo locally
 2. Open the folder in VS Code
 3. Open the terminal and run the following command: npm install cypress@9.7.0
-4. Now the project is ready to run, please run the following command in the termina: npm run cy:open
+4. Now the project is ready to run, please run the following command in the terminal to run the test in headful Mode: npm run cy:open
 5. when the cypress window is open, Please select nunaAssessment.js file to start the test.
+
+
+#### To run the test in headless mode:
+- Please run this command in termina: cy run cy:run
+
+### Screenshot & Video
+
+<img width="1020" alt="headless_mode" src="https://user-images.githubusercontent.com/65691982/197376711-1d0e34ca-6ce6-4fda-a2c9-c8ea2c0b93dc.png">
+
+
+https://user-images.githubusercontent.com/65691982/197376589-2c2f84a0-86bc-440f-9786-24a1a273b378.mp4
+
 
 
 ## Technologies Used
